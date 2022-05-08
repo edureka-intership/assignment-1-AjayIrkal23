@@ -38,7 +38,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-div .filter-sec {
+.filter-sec {
     margin-top: 2%;
     width: 20%;
     margin-left: 3%;
@@ -47,7 +47,8 @@ div .filter-sec {
 .items-sec {
     display: flex;
     margin-top: 2%;
-    width: 75%;
+    width: 100%;
+    justify-content: center;
 }
 
 .Delivery-time {
@@ -125,6 +126,7 @@ div .filter-sec {
 .card {
     margin-top: 10%;
     box-shadow: 10px 20px 30px grey;
+    width: 16.25rem;
 }
 
 .card:hover {
@@ -135,7 +137,96 @@ div .filter-sec {
 .card-text {
     font-family: 'Oswald', sans-serif;
     font-size: 1.1rem;
-    color: rgb(37, 37, 37)
+    color: rgb(37, 37, 37);
+    text-align: center;
+}
+
+.items-sec .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item-list {
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 881px) {
+    .Delivery-time {
+        margin-left: 0%;
+        margin-top: 5%
+    }
+    .last-card {
+        margin-bottom: 10%;
+    }
+    .Delivery-time .tittle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+    }
+    .stars-rating {
+        margin-left: 0%;
+        margin-top: 5%
+    }
+    .stars-rating .tittle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+    }
+    .del-item {
+        margin-left: 0%;
+    }
+    .star-item a {
+        margin-left: 0%;
+        color: black;
+    }
+    .star-item {
+        margin-top: 5px;
+    }
+    .star-item a:hover {
+        color: #0dcaf0
+    }
+    .star-item .fa-solid {
+        color: goldenrod;
+    }
+    .Brands {
+        margin-left: 0%;
+        margin-top: 5%
+    }
+    .Brands .tittle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+    }
+    .star-item a {
+        margin-left: 0%;
+        color: black;
+    }
+    .search-button {
+        margin: auto;
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    .filter-sec {
+        margin-top: 2%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
 }
 
 
@@ -146,7 +237,7 @@ div .filter-sec {
     flex: 25%;
     background-color: #2E3333;
     justify-content: center;
-    margin-top: 3%
+    margin-top: 3%;
 }
 
 .footer-card-outside {
