@@ -157,6 +157,17 @@
     display: none;
 }
 
+.card-text {
+    margin-bottom: 0;
+}
+
+.card-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+
 @media (max-width: 881px) {
     .Delivery-time {
         margin-left: 0%;
