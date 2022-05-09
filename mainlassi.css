@@ -47,15 +47,7 @@
             }
         }
         /* mainlassi */
-        
-        .mainlassi {
-            display: inline-grid;
-            grid-template-columns: auto auto auto;
-            gap: 10px;
-            background-color: #2196F3;
-            justify-content: center;
-            width: 100%;
-        }
+        /* footer code */
         
         .footer {
             display: flex;

@@ -198,6 +198,30 @@
         text-decoration: none;
     }
     
+    #size {
+        width: 90px;
+        height: 30px;
+        justify-self: center;
+    }
+    
+    .ratings {
+        display: inline-block;
+        color: white;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        margin-left: 36%;
+        text-align: right;
+        background-color: rgb(36, 150, 63);
+        font-family: 'Oswald', sans-serif;
+        border-radius: 15%
+    }
+    
+    .order-placed {
+        color: rgb(123, 121, 121);
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
     @media (max-width: 881px) {
         .Delivery-time {
             margin-left: 0%;
